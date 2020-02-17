@@ -7,6 +7,6 @@ class Dog
     @@all << self
   end 
   
-   
+  
   
   
