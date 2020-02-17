@@ -2,18 +2,19 @@ class Dog
   
   @@all = []
   
+  
   def initialize(name)
     @name = name
     self.save
   end 
 
+
   def self.all
     @@all
   end
   
-def name
-  @name 
-end 
+  def name
+    
 
 def self.print_all
   @@all.each do |dog|
@@ -30,5 +31,3 @@ def self.print_all
     
   end 
      
-    
-  end
